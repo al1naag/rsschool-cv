@@ -2,3 +2,10 @@ p {
     text-align: center;
     color: green;
 }
+h1 {
+    color: black;
+}
+h2 {
+    text-align: left;
+    color: black;
+}
