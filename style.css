@@ -1,11 +1,181 @@
-p {
-    text-align: center;
-    color: green;
+* {
+    box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
 h1 {
-    color: black;
+    color: #354259;
+    font-size: 24px;
 }
+
 h2 {
-    text-align: left;
-    color: black;
+    color: #354259;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*#profile-image{*/
+/*    padding: 50px 100px 35px;*/
+/*}*/
+
+/*#profile-title{*/
+/*    padding: 50px 100px 0 0;*/
+/*}*/
+.header {
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #99C4C8;
+
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 20px 50px;
+    max-width: 1440px;
+    transition: .3s;
+}
+
+.footer {
+    background-color: #68A7AD;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.git-link {
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.git-link a {
+    text-decoration: none;
+    transition: color 0.5s;
+    color: #FFFFFF;
+}
+
+.git-link a:hover {
+    color: #575757;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    transition: .3s;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #D2D7DF;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+#profile img {
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #252424FC;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-title {
+    position: relative;
+}
+
+#projects a {
+    color: #68A7AD;
+}
+
+#education a {
+    color: #68A7AD;
+}
+
+.rs-logo {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.copyright {
+    text-align: justify;
+}
+
+
+/* tl;dr */
+/*.carousel {*/
+/*    scroll-snap-type: x mandatory;*/
+/*    scroll-padding: 0 24px;*/
+/*}*/
+
+/*.carousel .item {*/
+/*    scroll-snap-align: start;*/
+/*}*/
